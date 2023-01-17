@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Jeusain</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!--ChatActivity-->
+    <string name="SendButton">Send</string>
+    <string name="EntryMessage">Hello, please enter your symptoms one by one. When you\'re done type !Done. For a list of symptoms type !Symptoms</string>
+    <string name="InvalidResponse">I\'m sorry, that\'s an invalid response. Make sure you typed your response correctly and if you need a refresher of the Symptoms type !Symptoms</string>
+    <string name="StillProcessing">Sorry! We are still processing your last messsage please try again.</string>
+    <string name="Diagnosis">Possible health Issues from most to least likely:</string>
+
+    <!--Details Fragment-->
+    <string name="dh_frag_diag_txt">Diagnosis:</string>
+    <string name="dh_frag_default">n/a</string>
+    <string name="dh_frag_date_txt">Date:</string>
+    <string name="dh_frag_symptom_txt">Symptoms:</string>
+    <string name="dh_frag_btn_txt">Delete Diagnosis</string>
+    <string name="delete_history_fragment">Are you sure you want to delete this diagnosis?</string>
+    <string name="dh_frag_toast">Diagnosis Deleted</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657998633854",
+    "project_id": "jeusain-latest",
+    "storage_bucket": "jeusain-latest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657998633854:android:4bf8584695c87c3a06312f",
+        "android_client_info": {
+          "package_name": "com.example.jeusain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657998633854-bi13qv0m6r33vr709bs8aoc66drt7mc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc84VY5Qno-u8Dm1rCwZnf5h7OqFbxnzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657998633854-bi13qv0m6r33vr709bs8aoc66drt7mc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

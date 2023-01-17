@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".diagnosis_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/dh_top_panel"
+            layout="@layout/dh_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/dh_frag_diag_head"
+                android:layout_width="match_parent"
+                android:layout_height="25sp"
+                android:textSize="20dp"
+                android:text="@string/dh_frag_diag_txt"/>
+            <ListView
+                android:id="@+id/dh_frag_diag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_below="@id/dh_frag_diag_head" />
+            <TextView
+                android:id="@+id/dh_frag_date_head"
+                android:layout_width="match_parent"
+                android:layout_height="25sp"
+                android:textSize="20dp"
+                android:text="@string/dh_frag_date_txt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/dh_frag_diag"/>
+            <TextView
+                android:id="@+id/dh_frag_date"
+                android:layout_width="match_parent"
+                android:layout_height="25sp"
+                android:textSize="18sp"
+                android:hint="@string/dh_frag_default"
+                android:layout_below="@id/dh_frag_date_head"/>
+
+            <TextView
+                android:id="@+id/dh_frag_symptom_head"
+                android:layout_width="match_parent"
+                android:layout_height="25sp"
+                android:textSize="20dp"
+                android:text="@string/dh_frag_symptom_txt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/dh_frag_date"/>
+            <ListView
+                android:id="@+id/dh_frag_symptom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_below="@id/dh_frag_symptom_head"
+                android:layout_above="@id/dh_frag_delete_btn"/>
+
+            <Button
+                android:id="@+id/dh_frag_delete_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/dh_frag_btn_txt"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
